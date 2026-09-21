@@ -11,7 +11,7 @@ int main(int ac, char **av)
             std::string result = std::string(av[i]);
             for (int j = 0; j < (int)result.size(); j++)
             {
-                std::cout << (char)std::toupper(result[j]);
+                std::cout << (char) std::toupper(result[j]);
             } 
         }
         std::cout << std::endl;
